@@ -46,7 +46,12 @@ For windows, you may need to log out and log back in after installing docker des
 ----    
 ### PANDA Docker image
 
-All of our PANDA work will be done from a shell inside a docker container.  There is a pre-built, exported PANDA docker image in that `panda_class_materials` directory you copied earlier. You can resurrect it now, which takes less time than building from the `Dockerfile`.  
+All of our PANDA work will be done from a shell inside a docker container.  
+
+
+#### Pre-built image
+
+There is a pre-built, exported PANDA docker image in that `panda_class_materials` directory you copied earlier. You can resurrect it now, which takes less time than building from the `Dockerfile`.  
 
 **CUE #1: Load the PANDA docker image** 
 
@@ -75,6 +80,14 @@ affb9719df40: Loading layer [==================================================>
 708977fb29c8: Loading layer [==================================================>]  1.272GB/1.272GB
 Loaded image: panda:latest
 ```
+
+#### Build docker image by hand
+
+If you have a good internet connection, it will be faster to build the PANDA docker container.  Here's how to do that on Linux/OSX.
+
+    cd ~/panda_class_materials/docker
+    docker build --no-cache -t panda .
+
 
 ----
 ##  PANDA First Gear -- A Whole Operating System At Our Command
