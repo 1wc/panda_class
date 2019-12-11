@@ -10,9 +10,7 @@ written and understand what the commands you execute do.
 PANDA/qemu) and PANDA replays which are bigger than the 100MB git file
 size limit. Thus, in order to get a working copy of these materials
 you will need to clone this repo using `lfs`.  That means you'll have
-to install lfs first with
-
-    git clone git-lfs
+to install lfs first.  Look here: https://git-lfs.github.com.
 
 After which you will clone this repo with the following incantation.
 
