@@ -24,7 +24,7 @@ After which you will clone this repo with the following incantation.
 a bunch of plugins (more prose here).  You should move the directory
 of `intro/panda_class_materials` to your home directory and then start
 following the class script in
-`panda_class_materials/docs/panda_class.md`
+[intro/panda_class_materials/docs/panda_class.md]
 
 `advanced`: An advanced version is planned that will involve
 programming.
