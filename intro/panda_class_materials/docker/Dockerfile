@@ -26,6 +26,8 @@ ENV FEATURES clang pyyaml
 
 RUN git clone -b docker  https://github.com/panda-re/panda
 
+RUN cd panda && git checkout panda_class_2019
+
 ENV PANDA_DOCKER=1
 
 RUN cd panda && ./panda/scripts/install_ubuntu.sh
